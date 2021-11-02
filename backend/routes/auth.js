@@ -20,7 +20,7 @@ User.create({
     password: req.body.password,
   }).then(user => res.json(user))
   .catch(err=>{console.log(err)
-res.json({error:"please enter a unique value"})})
+res.json({error:"please enter a unique value you repeating the same value"})})
 
     
 } )
