@@ -25,4 +25,4 @@ res.json({error:"please enter a unique value you repeating the same value"})})
     
 } )
 
-module.exports = router
+module.exports = router;
